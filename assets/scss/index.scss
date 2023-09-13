@@ -1,12 +1,14 @@
+@import '_vars';
 @import 'reset';
 @import 'font';
+
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
+    background-color: $purple;
     color: #fff;
     height: 100vh;
     font-size: 3rem;
