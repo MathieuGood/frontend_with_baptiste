@@ -7,8 +7,64 @@
     <title>Starter Kit with Vite</title>
   </head>
   <body>
-    <h1>Hello my friend !!!</h1>
-    <p>Starter Kit with Vite</p>
+    <header>
+      <a class="header__logo" href="#">
+        <img src="assets/svg/logo.svg"/>
+      </a>
+      <nav class="header__nav">
+        <ul>
+          <li class="header__nav-item">
+            <a href="/product">Product</a>
+            <ul class="header__subnav">
+              <li>
+                <a href="/product1">Product 1</a>
+              </li>
+              <li>
+                <a href="/product2">Product 2</a>
+              </li>
+              <li>
+                <a href="/product3">Product 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__nav-item">
+            <a href="/download">Download</a>
+            <ul class="header__subnav">
+              <li>
+                <a href="/download1">Download 1</a>
+              </li>
+              <li>
+                <a href="/download2">Download 2</a>
+              </li>
+              <li>
+                <a href="/download3">Download 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__nav-item">
+            <a href="/solutions">Solutions</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/resources">Resources</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/pricing">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <a class="btn btn--tertiary" href="/demo">
+          <span>Request a demo</span>
+        </a>
+        <a class="btn btn--tertiary" href="/log_in">
+          <span>Log in</span>
+        </a>
+        <button type="button" class="btn btn--primary btn--white">
+          <span>Get taskhub free</span>
+        </button> 
+      </div>
+    </header>
+
     <script type="module" src="./assets/js/index.js"></script>
   </body>
 </html>

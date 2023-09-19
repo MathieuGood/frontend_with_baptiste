@@ -1,8 +1,21 @@
-$purple : #541554;
-$orange : #ECB22E;
-$black : #000;
-$white : #FFF;
-$lightGrey : #F7F7F6;
-$lightPurple : #AC2BAC;
-$red: red;
-$blue:blue;
+// Colors
+$purple: #541554;
+$orange: #ECB22E;
+$black: #000;
+$white: #FFF;
+$lightGrey: #F7F7F6;
+$lightPurple: #AC2BAC;
+
+// Responsive
+$breakpoints: (
+    "xxl": 1920,
+    "xl": 1440,
+    "l": 1280, 
+    "n": 1024,
+    "m": 992, // iPad
+    "s": 768, // grand téléphone
+    "xs": 480, // petit téléphone
+    "xxs": 0,
+    "print": "print"
+);
+$grid--columns: 12;
